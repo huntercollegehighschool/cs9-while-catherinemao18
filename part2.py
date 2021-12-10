@@ -11,3 +11,9 @@ Hunter
 Hunter
 
 '''
+hunter = int(input("Times to print: "))
+tracker = 0 #keeps track of number of times hunter has been printed
+
+while tracker < hunter:
+  tracker = tracker + 1
+  print("Hunter")
