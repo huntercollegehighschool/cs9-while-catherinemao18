@@ -15,10 +15,12 @@ Average: 6.0
 
 '''
 num = int(input("Enter a number or enter 0 to stop:"))
-total = 0
+total = 0 #sum of all the inputs
+tracker = 0 #keeps track of number of times an input is entered
 
 while num != 0:
   total = total + num
+  tracker = tracker + 1
   num = int(input("Enter a number or enter 0 to stop:"))
     
-print("Average:", total)
+print("Average:", total/tracker)
